@@ -9,7 +9,7 @@ cd "$this_script_dir/../src"
 
 test -f gtk2_ardour/wscript || exit 1
 
-: ${XARCH=i686} # or x86_64
+: ${XARCH=x86_64} # or x86_64
 : ${ROOT=/home/ardour}
 : ${MAKEFLAGS=-j4}
 
