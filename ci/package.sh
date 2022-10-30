@@ -11,7 +11,7 @@ cd $this_script_dir/../..
 test -f gtk2_ardour/wscript || exit 1
 
 # Defaults (overridden by environment)
-: ${XARCH=i686} # or x86_64
+: ${XARCH=x86_64} # or x86_64
 : ${ROOT=/home/ardour}
 : ${MAKEFLAGS=-j4}
 : ${TMPDIR=/var/tmp}
